@@ -39,7 +39,7 @@ def enter():
     ball_list = [Ball() for i in range(30)]
     game_world.add_objects(ball_list, 1)
 
-    zombie_list = [Zombie()]
+    zombie_list = [Zombie() for i in range(10)]
     game_world.add_objects(zombie_list, 1)
 
     server.boy = Boy()
